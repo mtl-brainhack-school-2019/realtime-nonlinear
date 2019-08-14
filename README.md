@@ -8,5 +8,7 @@ Goal : Build a neurofeedback setup that outputs OSC control signals determined b
 Key steps :
 - [x] Stream a Muse signal to EEGsynth's FieldTrip buffer
 - [ ] Watch data accumulating in the buffer and create a feature extraction module (based on e.g. PyEEG, Brainpipe and MNE)
+    - [ ] Compute Hurst using pyeeg (https://github.com/forrestbao/pyeeg/blob/master/pyeeg/hurst.py)
+    - [ ] Compute complexity using NeuroKit (https://github.com/neuropsychology/NeuroKit.py/blob/master/neurokit/signal/complexity.py)
 - [ ] Normalize/calibrate the obtained measures to make them usable as control parameters (rescaling, baseline correction etc...)
 - [ ] Continuously send the normalized features via OSC
