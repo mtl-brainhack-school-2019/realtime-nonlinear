@@ -1,0 +1,4 @@
+pip install https://github.com/neuropsychology/NeuroKit.py/zipball/master
+
+
+
