@@ -6,7 +6,7 @@ Goal : Build a neurofeedback setup that outputs OSC control signals determined b
 
 
 Key steps :
-- Stream a Muse signal to EEGsynth's FieldTrip buffer
-- Watch data accumulating in the buffer and create a feature extraction module (based on e.g. PyEEG, Brainpipe and MNE)
-- Normalize/calibrate the obtained measures to make them usable as control parameters (rescaling, baseline correction etc...)
-- Continuously send the normalized features via OSC
+- [x] Stream a Muse signal to EEGsynth's FieldTrip buffer
+- [] Watch data accumulating in the buffer and create a feature extraction module (based on e.g. PyEEG, Brainpipe and MNE)
+- [] Normalize/calibrate the obtained measures to make them usable as control parameters (rescaling, baseline correction etc...)
+- [] Continuously send the normalized features via OSC
