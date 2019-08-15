@@ -15,7 +15,7 @@ Self-organized criticality (SOC) is a major consequence of brain functionning (r
 
 To our knowledge, even if a study used fractal dimension as a training feature for neurofeedback applications [(Qiang, Sourina & Khoa, 2010)](https://www.researchgate.net/profile/Olga_Sourina/publication/228808406_A_Fractal_Dimension_Based_Algorithm_for_Neurofeedback_Games/links/565445fc08ae4988a7b0158f/A-Fractal-Dimension-Based-Algorithm-for-Neurofeedback-Games.pdf), these well-established nonlinear measures have yet to be applied in the context of neurofeedback training.
 
-Because we don't hold specific hypotheses about the phenomenological and cognitive correlates of these measures, and because our end goal is to propose an enjoyable and transformative experience to whoever uses the setup, we adopt a passive BCI approach complemented with a manual (MIDI controler) exploration of active control oportunities. 
+Because we don't hold specific hypotheses about the phenomenological and cognitive correlates of these measures, and because our end goal is to propose an enjoyable and transformative experience to whoever uses the setup, we adopt a passive BCI approach complemented with a manual (MIDI controler) exploration of active control opportunities. 
 
 
 ## Goal
