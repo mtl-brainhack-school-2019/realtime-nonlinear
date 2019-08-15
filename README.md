@@ -1,5 +1,5 @@
 # realtime-nonlinear
-Realtime computation of complexity features (eg. DFA, permutation/sample entropy etc...) of mobile EEG for ludo-aesthetic neurofeedback.
+Pseudo-realtime computation of complexity features (eg. DFA, permutation/sample entropy etc...) on mobile EEG signals for ludo-aesthetic neurofeedback.
 
 ## CoCoBrainChannel
 
