@@ -19,11 +19,13 @@ To our knowledge, although one study used Higuchi's fractal dimension as a train
 
 
 ## Goal
+
 Goal : Build a neurofeedback setup that outputs OSC control signals determined by complexity measures computed in real-time on the signal streamed by a mobile EEG device (Muse 2016).
 
 Because we don't hold specific hypotheses about the phenomenological and cognitive correlates of complexity measures, and because our end goal is to propose an enjoyable and transformative experience to whoever uses the setup, we adopt a passive BCI approach complemented with a manual (MIDI controler) exploration of active control opportunities given by the features.
 
 ## Key objectives
+
 - [x] Install and run EGGsynth
   - [x] FieldTrip buffer up
   - [x] Redis database up
@@ -44,7 +46,14 @@ Because we don't hold specific hypotheses about the phenomenological and cogniti
 
 
 ## Secondary objectives
- - [ ] Get a pull request from EEGsynth for the complexity module.
- - [ ] Build an EEGsynth module to fluidify online machine learning classification based on spectral and complex features.
- - [ ] Build an EEGsynth module that performs peak extraction across frequency bands mapped on the MIDI controler in order to send them to PureData's dissonance curves objects.
- - [ ] Make a child's dream come true.
+
+- [ ] Get a pull request from EEGsynth for the complexity module.
+- [ ] Build an EEGsynth module to fluidify online machine learning classification based on spectral and complex features.
+- [ ] Build an EEGsynth module that performs peak extraction across frequency bands mapped on the MIDI controler in order to send them to PureData's dissonance curves objects.
+- [ ] Make a child's dream come true.
+ 
+## Deliverables
+- [ ] A blog post/markdown file detailing every step of the process
+- [ ] A working version of the CBC2.0 that can be started from a nice .sh script
+  - [ ] Use Docker or something in order to have an easy-to-install suite
+- [ ] Upload a video illustrating the experience of using the CBC with feedback of complexity measures
