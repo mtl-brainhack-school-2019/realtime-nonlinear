@@ -27,23 +27,23 @@ Because we don't hold specific hypotheses about the phenomenological and cogniti
   - [x] FieldTrip buffer up
   - [x] Redis database up
   - [x] Python modules up
- 
 - [x] Stream a Muse signal to EEGsynth's FieldTrip buffer
   - [x] Install and use MuseLSL (might work with BlueMuse for Windows, if you can handle the EEGsynth part) to stream Muse via LSL
   - [x] Catch LSL stream and send it to FT buffer via lsl2ft module
- 
 - [ ] Create a feature extraction module
   - [x] Compute complexity using NeuroKit (https://github.com/neuropsychology/NeuroKit.py/blob/master/neurokit/signal/complexity.py)
     - [ ] 8/12 measures return NaN, wtf is going on
     - [ ] Get an idea of how the window size influence measures robustness
   - [ ] Clean up the .py from obsolete code remaining from spectral.py
-  
 - [ ] Normalize/calibrate the obtained measures to make them usable as control parameters (rescaling, baseline correction etc...)
+  - [ ] Use EEGsynth's post-processing module
 - [ ] Continuously send the normalized features via OSC
+  - [ ] Use EEGsynth's outputosc module
 - [ ] Profit
 
 
 ## Secondary objectives
  - [ ] Get a pull request from EEGsynth for the complexity module.
  - [ ] Build an EEGsynth module to fluidify online machine learning classification based on spectral and complex features.
+ - [ ] Build an EEGsynth module that performs peak extraction across frequency bands mapped on the MIDI controler in order to send them to PureData's dissonance curves objects.
  - [ ] Make a child's dream come true.
