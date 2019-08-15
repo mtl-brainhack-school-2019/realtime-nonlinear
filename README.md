@@ -15,13 +15,16 @@ Self-organized criticality (SOC) is a major consequence of brain functionning (r
 
 To our knowledge, even if a study used fractal dimension as a training feature for neurofeedback applications (Qiang, Sourina & Khoa, 2010), these well-established nonlinear measures have yet to be applied in the context of neurofeedback training.
 
-Because we don't hold specific hypotheses about the phenomenological and cognitive correlates of these measures, and because our end goal is to propose an enjoyable and transformative experience to whoever uses the setup, we adopt a passive BCI approach complemented with a manual (MIDI controler) exploration of active control ooportunities. 
+Because we don't hold specific hypotheses about the phenomenological and cognitive correlates of these measures, and because our end goal is to propose an enjoyable and transformative experience to whoever uses the setup, we adopt a passive BCI approach complemented with a manual (MIDI controler) exploration of active control oportunities. 
 
 
 ## Goal
 Goal : Build a neurofeedback setup that outputs OSC control signals determined by complexity metrics computed in real-time on the signal streamed by a mobile EEG device (Muse 2016).
 
 ## Secondary objectives
+ - [ ] Get a pull request from EEGsynth for the complexity module.
+ - [ ] Build an EEGsynth module to fluidify machine learning classification based on spectral and complex features.
+ - [ ] Make a child's dream come true.
 
 Key steps :
 - [x] Stream a Muse signal to EEGsynth's FieldTrip buffer
