@@ -24,19 +24,19 @@ Because we don't hold specific hypotheses about the phenomenological and cogniti
 
 ## Key objectives
 - [x] Install and run EGGsynth
- - [x] FieldTrip buffer up
- - [x] Redis database up
- - [x] Python modules up
+  - [x] FieldTrip buffer up
+  - [x] Redis database up
+  - [x] Python modules up
  
 - [x] Stream a Muse signal to EEGsynth's FieldTrip buffer
- - [x] Install and use MuseLSL (might work with BlueMuse for Windows, if you can handle the EEGsynth part) to stream Muse via LSL
- - [x] Catch LSL stream and send it to FT buffer via lsl2ft module
+  - [x] Install and use MuseLSL (might work with BlueMuse for Windows, if you can handle the EEGsynth part) to stream Muse via LSL
+  - [x] Catch LSL stream and send it to FT buffer via lsl2ft module
  
 - [ ] Create a feature extraction module
- - [x] Compute complexity using NeuroKit (https://github.com/neuropsychology/NeuroKit.py/blob/master/neurokit/signal/complexity.py)
-  - [ ] 8/12 measures return NaN, wtf is going on
-  - [ ] Get an idea of how the window size influence measures robustness
- - [ ] Clean up the .py from obsolete code remaining from spectral.py
+  - [x] Compute complexity using NeuroKit (https://github.com/neuropsychology/NeuroKit.py/blob/master/neurokit/signal/complexity.py)
+    - [ ] 8/12 measures return NaN, wtf is going on
+    - [ ] Get an idea of how the window size influence measures robustness
+  - [ ] Clean up the .py from obsolete code remaining from spectral.py
   
 - [ ] Normalize/calibrate the obtained measures to make them usable as control parameters (rescaling, baseline correction etc...)
 - [ ] Continuously send the normalized features via OSC
