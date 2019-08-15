@@ -3,7 +3,8 @@ Pseudo-realtime computation of complexity features (eg. DFA, permutation/sample 
 
 ## CoCoBrainChannel
 
-
+The CoCoBrainChannel is a Python + PureData project with artistic and ludic purposes that aims to provide a musical soundscape in continuous interaction with the subject's mental state. 
+Because CoCoBrainChannel was developped for Muse 2014/2016 headbands, and that Interaxon discontinued support for it's SDK, using open-source community based alternatives like MuseLSL and EEGsynth has become a necessity to further develop this project.
 
 ## EEGsynth
 
