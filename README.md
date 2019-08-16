@@ -7,12 +7,13 @@ The [CoCoBrainChannel](http://antoinebellemare.com/portfolio/coco-brain-channel-
 It is constituted of a PureData generative music patch that receives control signals from the Muse SDK suite and Python scripts that perform online classification of brain signals. This setup gives rise to a neurofeedback experience that breaks the border between internal and external states by producing a musical soundscapes that reflect the subject's mental state. 
 
 To date, CoCoBrainChannel uses spectral features (notably the Beta/Alpha ratio, Theta band power and Delta 
-band power) to produce control values 
+band power) to produce control values that are either voluntarily controlable by the subject (Beta/Alpha) or reflect global cognitive states (Theta and Delta power). Additionally, Gamma power was used to classify facial muscular activty (frowning VS relaxed, smiling VS neutral) as it picked up a lot of non-cerebral electric sources.
 
 Because CoCoBrainChannel was developped for Muse 2014/2016 headbands, and that Interaxon discontinued support for it's SDK, __using open-source community based alternatives like MuseLSL and EEGsynth has become a necessity to further develop this project__. 
 
 ## EEGsynth
-
+[EEGsynth](https://github.com/eegsynth/eegsynth)
+![picture with alt](https://github.com/hyruuk/eegsynth/blob/master/doc/figures/communication.jpg "EEGsynth global architecture")
 
 ## Complexity & the brain
 
