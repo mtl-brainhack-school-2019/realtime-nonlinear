@@ -49,9 +49,8 @@ Because we don't hold specific hypotheses about the phenomenological and cogniti
 - [ ] Normalize/calibrate the obtained measures to make them usable as control parameters (rescaling, baseline correction etc...)
   - [ ] Use EEGsynth's post-processing module
 - [ ] Continuously send the normalized features via OSC
-  - [ ] Adapt outputosc to make it use python-osc instead of pyOSC
-    - [ ] Bonus : end up doing a pull request for it
-  - [ ] Use EEGsynth's outputosc module
+  - [X] Adapt outputosc to make it use python-osc instead of pyOSC
+    - [X] Bonus : end up doing a pull request for it
 - [ ] Profit
 
 
