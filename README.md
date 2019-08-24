@@ -44,7 +44,7 @@ Because we don't hold specific hypotheses about the phenomenological and cogniti
   - [x] Compute complexity using NeuroKit (https://github.com/neuropsychology/NeuroKit.py/blob/master/neurokit/signal/complexity.py)
     - [ ] 8/12 measures return NaN, wtf is going on
     - [ ] Get an idea of how the window size influence measures robustness
-    - [ ] Create a Jupyter-Notebook that describes this process and presents complexity measures
+    - [ ] [![Create a Jupyter-Notebook that describes this process and presents complexity measures](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mtl-brainhack-school-2019/realtime-nonlinear/master?filepath=https%3A%2F%2Fgithub.com%2Fmtl-brainhack-school-2019%2Frealtime-nonlinear%2Fblob%2Fmaster%2Fcomplexity_offline_test.ipynb)
     - [ ] Clean up the .py from obsolete code remaining from spectral.py
 - [ ] Normalize/calibrate the obtained measures to make them usable as control parameters (rescaling, baseline correction etc...)
   - [ ] Use EEGsynth's post-processing module
